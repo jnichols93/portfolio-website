@@ -1387,6 +1387,10 @@ pre code {
   .col-lg-offset-4 {
     margin-left: 33.33333333%;
   }
+  .lpHeader{
+    margin-left: 24%;
+    width: fit-content;
+  }
   .col-lg-offset-3 {
     margin-left: 32%;
   }
