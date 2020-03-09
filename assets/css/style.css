@@ -42,7 +42,7 @@
 }
 
 .centered {
-	text-align: center
+	text-align: -webkit-match-parent;
 }
 
 .mt {
