@@ -123,9 +123,44 @@ h1, h2, h3, h4, h5, h6 {
     align-items: baseline;
 	width: 57%;
 	margin-left:4%;
-	
 }
-
+.image{
+	display:flex;
+	flex-direction: row;
+	width: 68%;
+}
+.image-desc{
+	display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+	width: 57%;
+	margin-left:4%;
+}
+.overview{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    margin-top: 3%;
+}
+.time{
+	display: flex;
+    flex-direction: column;
+	align-items: center;}
+.git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+.deployed{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 11%;
+}
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
