@@ -52,7 +52,11 @@
 .mb {
 	margin-bottom: 80px;
 }
-
+.social-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 /* ==========================================================================
    General styles
    ========================================================================== */
