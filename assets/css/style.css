@@ -131,7 +131,6 @@ h1, h2, h3, h4, h5, h6 {
 .image{
 	display:flex;
 	flex-direction: row;
-	width: 68%;
 }
 .image-desc{
 	display: flex;
@@ -141,13 +140,59 @@ h1, h2, h3, h4, h5, h6 {
 	width: 57%;
 	margin-left:4%;
 }
+.image-overview{
+	width: 65%;
+}
 .overview{
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 65%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+@media(max-width:800px){
+.row {
+		display: flex;
+		flex-direction: column;
+	}
+.image {
+		display: flex;
+		flex-direction: column;
+	}
+.image-overview{
+	display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-left: 4%;
+}
+.overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 69%;
+    margin-bottom: 5%;
+	margin-top: 3%;
+	align-items: center;
+}
+.video-overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 81%;
+    margin-bottom: 5%;
     margin-top: 3%;
 }
+.video-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    width: 87%;
+    margin-left: 4%;
+}
+}	
 .time{
 	display: flex;
     flex-direction: column;
@@ -195,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 57px;
 	font-weight: bold;
 }
 #headerwrap h2 {
@@ -210,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #1abc9c;
 }
 
 #social {
