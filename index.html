@@ -64,7 +64,22 @@
       <div class="container">
         <div class="row">
           <div class="lpHeader">
-            <h4>HELLO PEOPLE, MY NAME IS</h4>
+<script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening';
+
+    document.getElementById('lblGreetings').innerHTML =
+        <h4> greet </h4>;
+</script> 
             <h1>Justin Nichols</h1>
             <h4>SOFTWARE DEVELOPER/ENGINEER & BLOCKCHAIN-ENTHUSIAST</h4>
           </div>
@@ -151,6 +166,7 @@
       </div>
     </div>
     <! --/footerwrap -->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
   </body>
