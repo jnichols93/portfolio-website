@@ -199,12 +199,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 #headerwrap h2 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 1px;
-	font-size: 48px;
-	font-weight: bold;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    letter-spacing: 1px;
+    /* font-size: 48px; */
+    font-weight: bold;
 }
 
 
@@ -261,6 +261,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 #workwrap h1 {
 	color:#1abc9c;
