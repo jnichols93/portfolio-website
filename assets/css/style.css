@@ -129,8 +129,8 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: baseline;
     align-items: baseline;
-	width: 57%;
-	margin-left:4%;
+	width: 100%;
+	margin-left:3%;
 }
 .image{
 		display: flex;
