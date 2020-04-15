@@ -84,6 +84,15 @@ h1, h2, h3, h4, h5, h6 {
 	.navbar-brand{
 	display:none
 	}
+	.deployed {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 11%;
+		margin-top: 10%;
+	}
+
+
 }
 .navbar-default .navbar-brand {
 	color: #1abc9c;
@@ -152,12 +161,26 @@ h1, h2, h3, h4, h5, h6 {
 	width: 65%;
 }
 .overview{
-	display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 65%;
-	margin-top: 3%;
-	margin-bottom: 3%;
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 10%; */
+}
+.deployed {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
 }
 .abtContainer{
 	margin-left: 14%;
@@ -193,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 69%;
+    width: 76%;
     margin-bottom: 5%;
 	margin-top: 3%;
 	align-items: center;
@@ -218,7 +241,15 @@ h1, h2, h3, h4, h5, h6 {
 .time{
 	display: flex;
     flex-direction: column;
-	align-items: center;}
+	align-items: center;
+
+}
+.deployed{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11%;
+}
 .git{
     display: flex;
     flex-direction: column;
@@ -226,12 +257,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     margin-bottom: 7%;
 }
-.deployed{
-	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 11%;
-}
+
 .fttHeader{
     text-align: center;
     width: 100%;
