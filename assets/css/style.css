@@ -91,7 +91,14 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 11%;
 		margin-top: 10%;
 	}
-
+	.video-overview {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		margin-bottom: 5%;
+		margin-top: 3%;
+	}
 
 }
 .navbar-default .navbar-brand {
@@ -127,11 +134,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .video-overview{
 	display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-	width: 69%;
-	margin-bottom: 5%;
-	margin-top:3%
+    width: 60%;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    align-items: center;
 }
 .video-info{
 	display: flex;
