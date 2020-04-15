@@ -1374,8 +1374,13 @@ pre code {
     margin-left: 33.33333333%;
   }
   .lpHeader{
-    margin-left: 23%;
-    width: fit-content;
+   /*@media all and (min-width:1200px)*/
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   width: fit-content;
+   margin-left: 24%;
+   margin-right: 24%;
   }
   .col-lg-offset-3 {
     margin-left: 24%;
