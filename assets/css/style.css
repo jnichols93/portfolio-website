@@ -150,20 +150,19 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left:3%;
 }
 .image{
-		display: flex;
-		flex-direction: row;
-		height: auto;
-		width: auto;
-		padding-left: 9%;
-		padding-right: 9%;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 16%;
 }
 .image-desc{
-	display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: baseline;
     align-items: baseline;
-	width: 57%;
-	margin-left:4%;
+    width: 55%;
+    margin-left: 4%;
+    margin-right: 21%;
 }
 .image-overview{
 	width: 65%;
