@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 		flex-direction: column;
 		align-items: center;
 		margin-bottom: 11%;
-		margin-top: 10%;
+		margin-top: 9%;
 	}
 	.video-overview {
 		display: flex;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 11%;
+    margin-bottom: 9%;
 }
 .git{
     display: flex;
